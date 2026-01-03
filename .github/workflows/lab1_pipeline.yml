@@ -1,6 +1,5 @@
 name: Démonstration CI
 
-# S'exécute uniquement sur la branche lab-1
 on:
   push:
     branches:
@@ -11,22 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Étape 1 - Initialisation
-        run: echo "Initialisation du système..."
+        run: echo "Done"
 
       - name: Étape 2 - Récupération du code
-        uses: actions/checkout@v3
+        run: echo "Done"
 
       - name: Étape 3 - Build
-        run: |
-          echo "Vérification des prérequis de votre présentation Seafile..."
-          echo "CPU : 2 cœurs minimum"
-          echo "RAM : 2 Go minimum"
+        run: echo "Done"
 
       - name: Étape 4 - Tests
-        run: echo "Test de la configuration YAML réussi."
+        run: echo "Done"
 
       - name: Étape 5 - Packaging
-        run: echo "Préparation du paquet Docker..."
+        run: echo "Done"
 
       - name: Étape 6 - Fin du pipeline
-        run: echo "Le Sénégal gagne la coupe d'afrique"
+        run: echo "Done"
