@@ -6,5 +6,5 @@ jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'senegal gagne la coupe d'afrique'
+      - run: echo "senegal gagne la coupe d'afrique"
       - run: echo $HOSTNAME
